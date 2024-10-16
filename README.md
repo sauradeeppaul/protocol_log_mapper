@@ -12,3 +12,8 @@ Parses a file containing flow log data and maps each row to a tag based on a loo
 
 ## Steps
 - Run on python3 using `python3 parser`
+
+## Assumptions
+- Supports Default log format version 2
+- Deprecated protocols are disregarded.
+- Logs not following the mapping will be skipped.
